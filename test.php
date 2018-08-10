@@ -12,11 +12,11 @@ $tr->setStopWords($stopWords);
 
 // Array of the most important keywords:
 $result = $tr->getOnlyKeyWords($text); 
-var_dump($result);
+//var_dump($result);
 
 // Array of the sentences from the most important part of the text:
 $result = $tr->getHighlights($text); 
-//var_dump($result);
+var_dump($result);
 
 // Array of the most important sentences from the text:
 $result = $tr->summarizeTextBasic($text);
