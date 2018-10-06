@@ -1,4 +1,4 @@
-# Text Handling Vietnamese
+# Automation text sumarize in vietnamese
 ## Result
 * Full text:
 
